@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/media.css">
+  </head>
+  <body>
+
+<div class="big-container">
+  <div class="mouses-container">
+    <img src="./assets/1.png" class="object" data-value="-2" alt="">
+    <img src="./assets/2.png" class="object" data-value="6" alt="">
+    <img src="./assets/3.png" class="object" data-value="4" alt="">
+    <img src="./assets/4.png" class="object" data-value="-6" alt="">
+    <img src="./assets/5.png" class="object" data-value="8" alt="">
+    <img src="./assets/6.png" class="object" data-value="-4" alt="">
+    <img src="./assets/7.png" class="object" data-value="5" alt="">
+    <img src="./assets/8.png" class="object" data-value="-9" alt="">
+    <img src="./assets/9.png" class="object" data-value="-5" alt="">
+  </div>
+</div>
+
+  <!-- <div class="header">
+    <p>Find Capital</p>
+  </div> -->
+  <div class="main">
+    <div class="container">
+      <div class="alert-msg">
+        <p></p>
+      </div>
+      <div class="controller game-cont hidden">
+        <div class="flag-item-container">
+          <div class="cou-flag">
+            <img src="" alt="Uzbekistan" />
+          </div>
+        </div>
+        <div class="cou-title">
+          <p></p>
+        </div>
+        <div class="timer">
+          <div class="timer-div">
+            <div class="timer-inner"></div>
+          </div>
+          <div class="timer-time">
+            <p>00:15</p>
+          </div>
+        </div>
+
+        <div class="answers">
+          <div>
+            <a href="#" id="an1" class="ans"></a>
+            <a href="#" id="an2" class="ans"></a>
+          </div>
+          <div>
+            <a href="#" id="an3" class="ans"></a>
+            <a href="#" id="an4" class="ans"></a>
+          </div>
+        </div>
+      </div>
+      <div class="controller layout">
+        <p class="lay-title">Welcome to Find Capitals</p>
+        <p class="lay-desc">
+          Find the capitals of the COUNTRIES and increase your knowledge)
+        </p>
+        <div class="status-info">
+          <p>Level: <span id="currentLevel">1</span></p>
+          <p>Points: <span id="points">0</span></p>
+        </div>
+        <button>Start the Game</button>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="footer">asdf</div> -->
+  <script
+          defer
+          src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+  ></script>
+  <script defer src="./js/script.js"></script>
+  </body>
+</html>
